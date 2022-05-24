@@ -30,10 +30,12 @@ const Container = styled.div`
     border-radius: 8px;
     flex-direction: column;
     transition: all 0.5s;
+    padding: 50px;
   }
 
   label {
     font-size: 25px;
+    width: 100%;
   }
 
   input {
@@ -45,18 +47,19 @@ const Container = styled.div`
     height: 2rem;
     border-radius: 4px;
     color: rgb(0, 0, 0, 0.8);
+    width: 100%;
   }
 
   button {
     margin-top: 30px;
     font-size: 1.1rem;
-    width: 60%;
     height: 2.5rem;
     border-radius: 8px;
     border: none;
     color: white;
     background: rgb(255, 49, 141, 0.6);
     transition: all 0.5s;
+    width: 100%;
   }
 
   button:hover {

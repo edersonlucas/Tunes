@@ -17,7 +17,7 @@ const Container = styled.div`
 const ContainerProfile = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   height: 500px;
   background: rgba(92, 41, 147, 0.38);

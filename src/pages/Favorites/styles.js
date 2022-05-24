@@ -20,6 +20,11 @@ const ContainerMusics = styled.div`
   padding: 0 5px;
   margin: auto;
 
+  & {
+    scrollbar-width: 12px thin;
+    scrollbar-color: rgb(85, 34, 204, 0.7) rgb(237, 70, 144, 0.7);
+  }
+
   &::-webkit-scrollbar {
     border-radius: 10px;
     width: 12px; 
